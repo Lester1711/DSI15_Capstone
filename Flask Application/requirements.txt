@@ -1,0 +1,10 @@
+Flask
+numpy
+Keras
+tensorflow==2.3
+pillow
+h5py
+joblib
+shutil
+werkzeug
+opencv-python
