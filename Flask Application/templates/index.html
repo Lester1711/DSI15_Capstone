@@ -1,0 +1,40 @@
+{% extends "import.html" %} 
+{% block content %}
+
+<center>
+<h2>Product Recommendation System</h2><br>
+
+<div>
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <label for="imageUpload" class="btn btn-primary">
+            Upload Image
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+    
+
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-info btn-lg " id="btn-predict">Generate Matches</button>
+        </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <div class="results">
+
+    <h1>Recommended Product</h1>
+        
+    <img class="img1" src=""/>
+    <img class="img2" src=""/>
+    <img class="img3" src=""/>
+    </div>
+    <a href="" class="btn btn-primary reset m4"> Reset</a>
+</div>
+</center><br><br>
+{% endblock %}
