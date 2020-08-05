@@ -12,12 +12,9 @@
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">      
 </head>
 
-<body>
+<body style="background-color:white;">
     <nav class="navbar navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">General Assembly Product Recommender</a>
-            
-        </div>
+            <h3><b><p style="color:white">General Assembly Product Recommender</b></h3></p>
     </nav>
     <div class="container">
         <div id="content" style="margin-top:2em">{% block content %}{% endblock %}</div>
