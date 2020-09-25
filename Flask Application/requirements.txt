@@ -1,7 +1,7 @@
 Flask
 numpy
 Keras
-tensorflow==2.3
+tensorflow==2.3.1
 pillow
 h5py
 joblib
